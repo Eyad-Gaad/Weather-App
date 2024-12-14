@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="icon" href="Images/cloudy.png">
+    <link rel="stylesheet" href="CSS/all.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/media.css">
+    <script src="Java Script/bootstrap.bundle.min.js"></script>
+    <script src="Java Script/index.js"></script>
+</head>
+<body class="commonColor2">
+    <section class="w-100 pb-4">
+        <div class="title w-75 mx-auto pt-5 d-flex justify-content-center">
+            <a class="text-decoration-none" href="index.html"><i class="fa-solid fa-cloud-moon-rain fa-3x mt-2 me-2 commonText"></i></a>
+            <h1 class="mt-3 ms-2 me-0 mb-0"><a class="text-decoration-none fs-1 firaSans fw-bold text-white" href="index.html">Weather App</a></h1>
+        </div>
+        <div class="container mt-5">
+            <div class="row mb-5">
+                <form>
+                    <div class="col-11 col-sm-10 col-md-8 col-lg-6 position-relative p-0 mx-auto">
+                        <input id="input" type="text" name="input" class="col-12 rounded-4 border-0 commonColor1 text-white ps-4" placeholder="Find Your Location...">
+                        <button class="btn btn-primary rounded-4 px-4 px-sm-5 py-2 position-absolute end-0 top-50 translate-middle-y me-1">Find</button>
+                          </div>
+                </form>
+                <span id="invalid" class="text-danger firaSans fs-6 text-center d-none"></span>
+            </div>
+            <div class="row gy-3">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="item commonColor3 rounded-4">
+                        <div class="d-flex justify-content-between py-2 px-2 commonColor2 rounded-top-4">
+                            <span id="fDate" class="commonText firaSans"></span>
+                            <span id="month" class="commonText firaSans"></span>
+                        </div>
+                        <div class="p-3">
+                            <span id="name" class="commonText firaSans fs-5 mb-3 d-block"></span>
+                            <div class="d-flex justify-content-center mb-3">
+                                <p id="temp_c" class="fa-4x fw-bold text-white firaSans"></p>
+                                <span class="fa-2x fw-bold text-white firaSans">O</span>
+                                <p class="fa-4x fw-bold text-white firaSans">C</p>
+                                <img id="icon1" class="mx-0 mx-md-auto mt-2" alt="temp_icon">
+                            </div>
+                            <span id="weather1" class="text-primary firaSans"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="item commonColor1 rounded-4">
+                        <div class="commonColor rounded-top-4 d-flex justify-content-center py-2 px-2">
+                            <span id="sDate" class="commonText firaSans"></span>
+                        </div>
+                        <div class="p-4 text-center">
+                            <img id="icon2" class="" alt="second_temp_icon">
+                            <p id="maxtemp_c1" class="text-white firaSans fs-3 mb-0"></p>
+                            <p id="mintemp_c1" class="commonText firaSans fs-6 mb-4"></p>
+                            <span id="weather2" class="text-primary firaSans"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="item commonColor1 rounded-4">
+                        <div class="commonColor rounded-top-4 d-flex justify-content-center py-2 px-2">
+                            <span id="tDate" class="commonText firaSans"></span>
+                        </div>
+                        <div class="p-4 text-center">
+                            <img id="icon3" class="" alt="second_temp_icon">
+                            <p id="maxtemp_c2" class="text-white firaSans fs-3 mb-0"></p>
+                            <p id="mintemp_c2" class="commonText firaSans fs-6 mb-4"></p>
+                            <span id="weather3" class="text-primary firaSans"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="p-2">
+        <div class="links">
+            <ul class="mb-2 list-unstyled d-flex justify-content-center">
+                <li><a target="_blank" class="text-decoration-none" href="https://www.facebook.com/weatherapidev"><i class="commonColor p-2 rounded-circle fs-2 text-primary fa-brands fa-facebook"></i></a></li>
+                <li><a target="_blank" class="text-decoration-none" href="https://www.instagram.com/weatherapi/"><i class="commonColor p-2 rounded-circle fs-2 text-primary fa-brands fa-instagram"></i></a></li>
+                <li><a target="_blank" class="text-decoration-none" href="https://x.com/weatherapidev/"><i class="commonColor p-2 rounded-circle fs-2 text-primary fa-brands fa-x-twitter"></i></a></li>
+                <li><a target="_blank" class="text-decoration-none" href="https://github.com/weatherapicom/"><i class="commonColor p-2 rounded-circle fs-2 text-primary fa-brands fa-github"></i></a></li>
+                <li><a target="_blank" class="text-decoration-none" href="https://www.linkedin.com/company/weatherapi-com"><i class="commonColor p-2 rounded-circle fs-2 text-primary fa-brands fa-linkedin"></i></a></li>
+            </ul> 
+        </div>
+        <span class="commonText text-center d-block">Copyright © <a class="text-decoration-none text-primary" target="_blank" href="https://www.weatherapi.com/">Weather API.</a></span>
+    </footer>
+</body>
+</html>

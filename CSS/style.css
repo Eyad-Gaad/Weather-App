@@ -1,0 +1,63 @@
+:root{
+    /* Fonts variables */
+    --firaSans : "Fira Sans", sans-serif;
+    /* BG-Colors Variables */
+    --commonColor : #1E202B;
+    --commonColor1 : #222530;
+    --commonColor2 : #2D303D;
+    --commonColor3 : #323544;
+    /* TextColor */
+    --commonText : #BFC1C8;
+}
+.firaSans{
+    font-family: var(--firaSans);
+}
+.commonColor{
+    background-color: var(--commonColor);
+}
+.commonColor1{
+    background-color: var(--commonColor1);
+}
+.commonColor2{
+    background-color: var(--commonColor2);
+}
+.commonColor3{
+    background-color: var(--commonColor3);
+}
+.commonText{
+    color: var(--commonText);
+}
+section{
+    background-image:url(../Images/banner.png);
+    background-size: cover;
+    background-position: center;
+}
+input{
+    height: 3.5rem;
+    outline: 0px;
+}
+img{
+    width:70px ;
+    height:70px ;
+    object-fit: cover;
+}
+.item{
+    height: 273.43px;
+}
+ul{
+    column-gap: 1.3rem;
+}
+footer i{
+    transition: all 0.2s;
+}
+footer i:hover{
+    background-color: #0D6EFD;
+    color: white!important;
+}
+footer a{
+    transition: all;
+}
+footer a:hover{
+    color: white !important;
+    text-decoration: underline !important;
+}
